@@ -1,3 +1,4 @@
+//Dayanna Chacha
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
@@ -31,7 +32,7 @@ public class App {
 
         Persona.ordenarPorEdad(personas);
 
-        System.out.print("Valor de la edad que desea buscar: ");
+        System.out.print("Ingrese el valor de la edad que desea buscar: ");
         int objetivo = sc.nextInt();
 
         int resultado = Persona.buscarPorEdad(personas, objetivo);
@@ -40,7 +41,7 @@ public class App {
         if (resultado != -1) {
             System.out.println("La persona con la edad " + objetivo + " es: " + personas.get(resultado).getNombre());
         } else {
-            System.out.println("No se encontró una persona con la edad " + objetivo);
+            System.out.println("No se encontró una persona con la edad ingresada " + objetivo);
         }
     }
 }

@@ -1,3 +1,4 @@
+//Dayanna Chacha
 import java.util.List;
 
 public class Persona {
@@ -35,7 +36,7 @@ public class Persona {
         }
     }
 
-    // Búsqueda binaria con trazas
+    
     public static int buscarPorEdad(List<Persona> personas, int objetivo) {
         int bajo = 0;
         int alto = personas.size() - 1;
